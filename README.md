@@ -40,7 +40,7 @@ git checkout styled
 ```bash
 git merge htmlify
 ```
-Sí que causó un conflicto porque el archivo _git-nuestro.md_ ha sido modificado en las dos ramas que se están fusionando (**_styled_** y **_htmlify_**) y en las mismas líneas.
+Sí que causó un conflicto porque el archivo _git-nuestro.md_ ha sido modificado en las dos ramas que se están fusionando (**_styled_** y **_htmlify_**) y con cambios en las mismas líneas del archivo.
 
 Al haber sido modificadas las mismas líneas de código, _git_ no puede realizar un merge automático porque no sabe que cambios deben prevalecer sobre los de la otra rama.
 
